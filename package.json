@@ -5,7 +5,9 @@
   "main": "dist/main.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "postinstall": "npm run build",
+    "start": "node dist/main.js"
   },
   "author": "Fadil Hambali",
   "license": "ISC",
