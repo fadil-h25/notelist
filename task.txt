@@ -1,0 +1,16 @@
+Auth:
+    - loginUser | beres
+    - registerUser | beres
+    - loginAdmin | beres
+
+Users:
+    - getMe | beres
+    - updateMe | beres
+
+Notes:
+    - getAllNotes
+    - getNoteById
+    - addNote 
+    - delete note 
+    - updateNote
+    
